@@ -55,6 +55,11 @@
     "description": "New functionality. Example: Adding land borders."
   },
   {
+    "name": "type: discussion",
+    "color": "#2ca02c",
+    "description": "Issues that are meant to spark a discussion. Example: Getting input on a future feature/api change."
+  },
+  {
     "name": "type: documentation",
     "color": "#2ca02c",
     "description": "Documentation-related changes. Example: Updating README."

@@ -60,6 +60,11 @@
     "description": "Documentation-related changes. Example: Updating README."
   },
   {
+    "name": "type: discussion",
+    "color": "#2ca02c",
+    "description": "Issues that are meant to spark a discussion. Example: Getting input on a future feature/api change."
+  },
+  {
     "name": "type: refactor",
     "color": "#2ca02c",
     "description": "Internal restructuring. Example: Cleaning up utilities."
