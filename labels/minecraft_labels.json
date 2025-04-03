@@ -1,0 +1,347 @@
+[
+  {
+    "name": "scope: commands",
+    "color": "#1f77b4",
+    "description": "Command logic and registration. Example: Adding `/f help`."
+  },
+  {
+    "name": "scope: events",
+    "color": "#1f77b4",
+    "description": "Bukkit/Spigot event handlers. Example: Handling BlockBreakEvent."
+  },
+  {
+    "name": "scope: permissions",
+    "color": "#1f77b4",
+    "description": "Permissions and role enforcement. Example: Setting up `plugin.use.fly`."
+  },
+  {
+    "name": "scope: config",
+    "color": "#1f77b4",
+    "description": "Config options and reload handling. Example: Adding toggle for friendly fire."
+  },
+  {
+    "name": "scope: economy",
+    "color": "#1f77b4",
+    "description": "Economy systems, Vault integration. Example: Charging for teleporting."
+  },
+  {
+    "name": "scope: integrations",
+    "color": "#1f77b4",
+    "description": "Plugin interop. Example: Supporting WorldGuard."
+  },
+  {
+    "name": "scope: gui",
+    "color": "#1f77b4",
+    "description": "Inventory menus and UIs. Example: Creating a faction management menu."
+  },
+  {
+    "name": "scope: api",
+    "color": "#1f77b4",
+    "description": "Public plugin API changes. Example: Adding `Faction#getHome()`."
+  },
+  {
+    "name": "scope: player-side",
+    "color": "#1f77b4",
+    "description": "Player-experience features. Example: Adding sounds to events."
+  },
+  {
+    "name": "scope: operator",
+    "color": "#1f77b4",
+    "description": "Admin commands and tools. Example: Adding `/plugin reload`."
+  },
+  {
+    "name": "scope: db",
+    "color": "#1f77b4",
+    "description": "Data storage and migration. Example: Switching from YAML to MySQL."
+  },
+  {
+    "name": "scope: docs",
+    "color": "#1f77b4",
+    "description": "Plugin documentation. Example: Updating command list in wiki."
+  },
+  {
+    "name": "type: bug",
+    "color": "#2ca02c",
+    "description": "A defect or error. Example: Fixing null pointer on login."
+  },
+  {
+    "name": "type: enhancement",
+    "color": "#2ca02c",
+    "description": "Improvement to existing features. Example: Speeding up claims."
+  },
+  {
+    "name": "type: feature",
+    "color": "#2ca02c",
+    "description": "New functionality. Example: Adding land borders."
+  },
+  {
+    "name": "type: documentation",
+    "color": "#2ca02c",
+    "description": "Documentation-related changes. Example: Updating README."
+  },
+  {
+    "name": "type: refactor",
+    "color": "#2ca02c",
+    "description": "Internal restructuring. Example: Cleaning up utilities."
+  },
+  {
+    "name": "type: test",
+    "color": "#2ca02c",
+    "description": "Adding or improving tests. Example: Writing unit tests for API."
+  },
+  {
+    "name": "type: performance",
+    "color": "#2ca02c",
+    "description": "Optimizing behavior. Example: Reducing lag during teleport."
+  },
+  {
+    "name": "type: security",
+    "color": "#2ca02c",
+    "description": "Security-related update. Example: Fixing permissions escalation."
+  },
+  {
+    "name": "type: style",
+    "color": "#2ca02c",
+    "description": "Styling or formatting only. Example: Applying code formatter."
+  },
+  {
+    "name": "status: backlog",
+    "color": "#ff7f0e",
+    "description": "Not started yet. Example: Feature request logged."
+  },
+  {
+    "name": "status: in progress",
+    "color": "#ff7f0e",
+    "description": "Currently being worked on. Example: Implementing claim preview."
+  },
+  {
+    "name": "status: blocked",
+    "color": "#ff7f0e",
+    "description": "Work cannot continue yet. Example: Waiting on Paper update."
+  },
+  {
+    "name": "status: needs review",
+    "color": "#ff7f0e",
+    "description": "Ready for code or peer review. Example: Open pull request."
+  },
+  {
+    "name": "status: needs testing",
+    "color": "#ff7f0e",
+    "description": "Requires QA or validation. Example: Manual test after merge."
+  },
+  {
+    "name": "status: ready to merge",
+    "color": "#ff7f0e",
+    "description": "Complete and approved. Example: Awaiting button press."
+  },
+  {
+    "name": "status: duplicate",
+    "color": "#ff7f0e",
+    "description": "Already tracked elsewhere. Example: Same bug in another issue."
+  },
+  {
+    "name": "status: won't fix",
+    "color": "#ff7f0e",
+    "description": "Deliberately not addressing. Example: Unsupported MC version."
+  },
+  {
+    "name": "status: invalid",
+    "color": "#ff7f0e",
+    "description": "Not actionable or incorrect. Example: Misunderstood feature."
+  },
+  {
+    "name": "effort: trivial",
+    "color": "#9467bd",
+    "description": "Takes <5 minutes. Example: Typo fix."
+  },
+  {
+    "name": "effort: low",
+    "color": "#9467bd",
+    "description": "Quick task, ~1 hour. Example: Add config toggle."
+  },
+  {
+    "name": "effort: medium",
+    "color": "#9467bd",
+    "description": "Moderate task. Example: Add GUI menu."
+  },
+  {
+    "name": "effort: high",
+    "color": "#9467bd",
+    "description": "Complex, several hours. Example: Rewrite claim system."
+  },
+  {
+    "name": "effort: very high",
+    "color": "#9467bd",
+    "description": "Major or multi-day task. Example: DB migration."
+  },
+  {
+    "name": "effort: unknown",
+    "color": "#9467bd",
+    "description": "Needs investigation. Example: Vague bug."
+  },
+  {
+    "name": "platform: spigot",
+    "color": "#17becf",
+    "description": "Targets Spigot. Example: Legacy method support."
+  },
+  {
+    "name": "platform: paper",
+    "color": "#17becf",
+    "description": "Targets Paper. Example: Using async chunk loading."
+  },
+  {
+    "name": "platform: sponge",
+    "color": "#17becf",
+    "description": "Targets Sponge. Example: Sponge API usage."
+  },
+  {
+    "name": "platform: hybrid",
+    "color": "#17becf",
+    "description": "Cross-platform support. Example: Shared plugin logic."
+  },
+  {
+    "name": "platform: fabric",
+    "color": "#17becf",
+    "description": "Targets Fabric. Example: Using mixins."
+  },
+  {
+    "name": "platform: neoforge",
+    "color": "#17becf",
+    "description": "Targets NeoForge. Example: NeoForge-specific hooks."
+  },
+  {
+    "name": "mc: 1.8",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.8. Example: Compatibility for 1.8 features."
+  },
+  {
+    "name": "mc: 1.9",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.9. Example: Compatibility for 1.9 features."
+  },
+  {
+    "name": "mc: 1.10",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.10. Example: Compatibility for 1.10 features."
+  },
+  {
+    "name": "mc: 1.11",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.11. Example: Compatibility for 1.11 features."
+  },
+  {
+    "name": "mc: 1.12",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.12. Example: Compatibility for 1.12 features."
+  },
+  {
+    "name": "mc: 1.13",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.13. Example: Compatibility for 1.13 features."
+  },
+  {
+    "name": "mc: 1.14",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.14. Example: Compatibility for 1.14 features."
+  },
+  {
+    "name": "mc: 1.15",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.15. Example: Compatibility for 1.15 features."
+  },
+  {
+    "name": "mc: 1.16",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.16. Example: Compatibility for 1.16 features."
+  },
+  {
+    "name": "mc: 1.17",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.17. Example: Compatibility for 1.17 features."
+  },
+  {
+    "name": "mc: 1.18",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.18. Example: Compatibility for 1.18 features."
+  },
+  {
+    "name": "mc: 1.19",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.19. Example: Compatibility for 1.19 features."
+  },
+  {
+    "name": "mc: 1.20",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.20. Example: Compatibility for 1.20 features."
+  },
+  {
+    "name": "mc: 1.21.1",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.21.1. Example: Compatibility for 1.21.1 changes."
+  },
+  {
+    "name": "mc: 1.21.2",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.21.2. Example: Compatibility for 1.21.2 changes."
+  },
+  {
+    "name": "mc: 1.21.3",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.21.3. Example: Compatibility for 1.21.3 changes."
+  },
+  {
+    "name": "mc: 1.21.4",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.21.4. Example: Compatibility for 1.21.4 changes."
+  },
+  {
+    "name": "mc: 1.21.5",
+    "color": "#d62728",
+    "description": "Supports Minecraft 1.21.5. Example: Compatibility for 1.21.5 changes."
+  },
+  {
+    "name": "work: obvious",
+    "color": "#cccccc",
+    "description": "Clear cause-and-effect. Best practices apply. Example: Fixing a config typo."
+  },
+  {
+    "name": "work: complicated",
+    "color": "#cccccc",
+    "description": "Requires analysis or expert knowledge. Example: Designing API endpoints."
+  },
+  {
+    "name": "work: complex",
+    "color": "#cccccc",
+    "description": "Uncertain outcomes, requires iteration. Example: Implementing new gameplay mechanic."
+  },
+  {
+    "name": "work: chaotic",
+    "color": "#cccccc",
+    "description": "Urgent and unclear. Example: Production server crash."
+  },
+  {
+    "name": "work: disorder",
+    "color": "#cccccc",
+    "description": "Unknown context. Needs clarification. Example: Unclear bug report."
+  },
+  {
+    "name": "priority: must-have",
+    "color": "#cccccc",
+    "description": "Critical to project success. Example: Core login system."
+  },
+  {
+    "name": "priority: should-have",
+    "color": "#cccccc",
+    "description": "Important but not vital. Example: Admin panel filters."
+  },
+  {
+    "name": "priority: could-have",
+    "color": "#cccccc",
+    "description": "Nice to have, low effort. Example: Dark mode toggle."
+  },
+  {
+    "name": "priority: won't-have (this time)",
+    "color": "#cccccc",
+    "description": "Not planned for this cycle. Example: Mobile app version."
+  }
+]
