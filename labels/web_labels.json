@@ -1,212 +1,212 @@
 [
   {
-    "name": "scope: frontend",
-    "color": "#1f77b4",
-    "description": "Client-side UI/UX. Example: Styling login form."
+      "name": "scope: frontend",
+      "color": "#1f77b4",
+      "description": "Client-side UI/UX. Example: Styling login form."
   },
   {
-    "name": "scope: backend",
-    "color": "#1f77b4",
-    "description": "Server-side logic. Example: Email handler."
+      "name": "scope: backend",
+      "color": "#1f77b4",
+      "description": "Server-side logic. Example: Email handler."
   },
   {
-    "name": "scope: database",
-    "color": "#1f77b4",
-    "description": "DB schema and queries. Example: Normalize users table."
+      "name": "scope: database",
+      "color": "#1f77b4",
+      "description": "DB schema and queries. Example: Normalize users table."
   },
   {
-    "name": "scope: api",
-    "color": "#1f77b4",
-    "description": "API endpoint logic. Example: Create `/users` route."
+      "name": "scope: api",
+      "color": "#1f77b4",
+      "description": "API endpoint logic. Example: Create `/users` route."
   },
   {
-    "name": "scope: auth",
-    "color": "#1f77b4",
-    "description": "Authentication and access. Example: Add JWT auth."
+      "name": "scope: auth",
+      "color": "#1f77b4",
+      "description": "Authentication and access. Example: Add JWT auth."
   },
   {
-    "name": "scope: devops",
-    "color": "#1f77b4",
-    "description": "CI/CD, deployment, infra. Example: GitHub Actions pipeline."
+      "name": "scope: devops",
+      "color": "#1f77b4",
+      "description": "CI/CD, deployment, infra. Example: GitHub Actions pipeline."
   },
   {
-    "name": "scope: accessibility",
-    "color": "#1f77b4",
-    "description": "A11y improvements. Example: Add ARIA tags."
+      "name": "scope: accessibility",
+      "color": "#1f77b4",
+      "description": "A11y improvements. Example: Add ARIA tags."
   },
   {
-    "name": "scope: docs",
-    "color": "#1f77b4",
-    "description": "Project docs. Example: Setup guide update."
+      "name": "scope: docs",
+      "color": "#1f77b4",
+      "description": "Project docs. Example: Setup guide update."
   },
   {
-    "name": "type: bug",
-    "color": "#2ca02c",
-    "description": "A defect or error. Example: Fixing null pointer on login."
+      "name": "type: bug",
+      "color": "#2ca02c",
+      "description": "A defect or error. Example: Fixing null pointer on login."
   },
   {
-    "name": "type: enhancement",
-    "color": "#2ca02c",
-    "description": "Improvement to existing features. Example: Speeding up claims."
+      "name": "type: enhancement",
+      "color": "#2ca02c",
+      "description": "Improvement to existing features. Example: Speeding up claims."
   },
   {
-    "name": "type: feature",
-    "color": "#2ca02c",
-    "description": "New functionality. Example: Adding land borders."
+      "name": "type: feature",
+      "color": "#2ca02c",
+      "description": "New functionality. Example: Adding land borders."
   },
   {
-    "name": "type: documentation",
-    "color": "#2ca02c",
-    "description": "Documentation-related changes. Example: Updating README."
+      "name": "type: documentation",
+      "color": "#2ca02c",
+      "description": "Documentation-related changes. Example: Updating README."
   },
   {
-    "name": "type: discussion",
-    "color": "#2ca02c",
-    "description": "Issues that are meant to spark a discussion. Example: Getting input on a future feature/api change."
+      "name": "type: discussion",
+      "color": "#2ca02c",
+      "description": "Issues that are meant to spark a discussion. Example: Getting input on a future feature/api change."
   },
   {
-    "name": "type: refactor",
-    "color": "#2ca02c",
-    "description": "Internal restructuring. Example: Cleaning up utilities."
+      "name": "type: refactor",
+      "color": "#2ca02c",
+      "description": "Internal restructuring. Example: Cleaning up utilities."
   },
   {
-    "name": "type: test",
-    "color": "#2ca02c",
-    "description": "Adding or improving tests. Example: Writing unit tests for API."
+      "name": "type: test",
+      "color": "#2ca02c",
+      "description": "Adding or improving tests. Example: Writing unit tests for API."
   },
   {
-    "name": "type: performance",
-    "color": "#2ca02c",
-    "description": "Optimizing behavior. Example: Reducing lag during teleport."
+      "name": "type: performance",
+      "color": "#2ca02c",
+      "description": "Optimizing behavior. Example: Reducing lag during teleport."
   },
   {
-    "name": "type: security",
-    "color": "#2ca02c",
-    "description": "Security-related update. Example: Fixing permissions escalation."
+      "name": "type: security",
+      "color": "#2ca02c",
+      "description": "Security-related update. Example: Fixing permissions escalation."
   },
   {
-    "name": "type: style",
-    "color": "#2ca02c",
-    "description": "Styling or formatting only. Example: Applying code formatter."
+      "name": "type: style",
+      "color": "#2ca02c",
+      "description": "Styling or formatting only. Example: Applying code formatter."
   },
   {
-    "name": "status: backlog",
-    "color": "#ff7f0e",
-    "description": "Not started yet. Example: Feature request logged."
+      "name": "status: backlog",
+      "color": "#ff7f0e",
+      "description": "Not started yet. Example: Feature request logged."
   },
   {
-    "name": "status: in progress",
-    "color": "#ff7f0e",
-    "description": "Currently being worked on. Example: Implementing claim preview."
+      "name": "status: in progress",
+      "color": "#ff7f0e",
+      "description": "Currently being worked on. Example: Implementing claim preview."
   },
   {
-    "name": "status: blocked",
-    "color": "#ff7f0e",
-    "description": "Work cannot continue yet. Example: Waiting on Paper update."
+      "name": "status: blocked",
+      "color": "#ff7f0e",
+      "description": "Work cannot continue yet. Example: Waiting on Paper update."
   },
   {
-    "name": "status: needs review",
-    "color": "#ff7f0e",
-    "description": "Ready for code or peer review. Example: Open pull request."
+      "name": "status: needs review",
+      "color": "#ff7f0e",
+      "description": "Ready for code or peer review. Example: Open pull request."
   },
   {
-    "name": "status: needs testing",
-    "color": "#ff7f0e",
-    "description": "Requires QA or validation. Example: Manual test after merge."
+      "name": "status: needs testing",
+      "color": "#ff7f0e",
+      "description": "Requires QA or validation. Example: Manual test after merge."
   },
   {
-    "name": "status: ready to merge",
-    "color": "#ff7f0e",
-    "description": "Complete and approved. Example: Awaiting button press."
+      "name": "status: ready to merge",
+      "color": "#ff7f0e",
+      "description": "Complete and approved. Example: Awaiting button press."
   },
   {
-    "name": "status: duplicate",
-    "color": "#ff7f0e",
-    "description": "Already tracked elsewhere. Example: Same bug in another issue."
+      "name": "status: duplicate",
+      "color": "#ff7f0e",
+      "description": "Already tracked elsewhere. Example: Same bug in another issue."
   },
   {
-    "name": "status: won't fix",
-    "color": "#ff7f0e",
-    "description": "Deliberately not addressing. Example: Unsupported MC version."
+      "name": "status: won't fix",
+      "color": "#ff7f0e",
+      "description": "Deliberately not addressing. Example: Unsupported MC version."
   },
   {
-    "name": "status: invalid",
-    "color": "#ff7f0e",
-    "description": "Not actionable or incorrect. Example: Misunderstood feature."
+      "name": "status: invalid",
+      "color": "#ff7f0e",
+      "description": "Not actionable or incorrect. Example: Misunderstood feature."
   },
   {
-    "name": "effort: trivial",
-    "color": "#9467bd",
-    "description": "Takes <5 minutes. Example: Typo fix."
+      "name": "effort: trivial",
+      "color": "#9467bd",
+      "description": "Takes <5 minutes. Example: Typo fix."
   },
   {
-    "name": "effort: low",
-    "color": "#9467bd",
-    "description": "Quick task, ~1 hour. Example: Add config toggle."
+      "name": "effort: low",
+      "color": "#9467bd",
+      "description": "Quick task, ~1 hour. Example: Add config toggle."
   },
   {
-    "name": "effort: medium",
-    "color": "#9467bd",
-    "description": "Moderate task. Example: Add GUI menu."
+      "name": "effort: medium",
+      "color": "#9467bd",
+      "description": "Moderate task. Example: Add GUI menu."
   },
   {
-    "name": "effort: high",
-    "color": "#9467bd",
-    "description": "Complex, several hours. Example: Rewrite claim system."
+      "name": "effort: high",
+      "color": "#9467bd",
+      "description": "Complex, several hours. Example: Rewrite claim system."
   },
   {
-    "name": "effort: very high",
-    "color": "#9467bd",
-    "description": "Major or multi-day task. Example: DB migration."
+      "name": "effort: very high",
+      "color": "#9467bd",
+      "description": "Major or multi-day task. Example: DB migration."
   },
   {
-    "name": "effort: unknown",
-    "color": "#9467bd",
-    "description": "Needs investigation. Example: Vague bug."
+      "name": "effort: unknown",
+      "color": "#9467bd",
+      "description": "Needs investigation. Example: Vague bug."
   },
   {
-    "name": "work: obvious",
-    "color": "#cccccc",
-    "description": "Clear cause-and-effect. Best practices apply. Example: Fixing a config typo."
+      "name": "work: obvious",
+      "color": "#cccccc",
+      "description": "Clear cause-and-effect. Best practices apply. Example: Fixing a config typo."
   },
   {
-    "name": "work: complicated",
-    "color": "#cccccc",
-    "description": "Requires analysis or expert knowledge. Example: Designing API endpoints."
+      "name": "work: complicated",
+      "color": "#cccccc",
+      "description": "Requires analysis or expert knowledge. Example: Designing API endpoints."
   },
   {
-    "name": "work: complex",
-    "color": "#cccccc",
-    "description": "Uncertain outcomes, requires iteration. Example: Implementing new gameplay mechanic."
+      "name": "work: complex",
+      "color": "#cccccc",
+      "description": "Uncertain outcomes, requires iteration. Example: Implementing new gameplay mechanic."
   },
   {
-    "name": "work: chaotic",
-    "color": "#cccccc",
-    "description": "Urgent and unclear. Example: Production server crash."
+      "name": "work: chaotic",
+      "color": "#cccccc",
+      "description": "Urgent and unclear. Example: Production server crash."
   },
   {
-    "name": "work: disorder",
-    "color": "#cccccc",
-    "description": "Unknown context. Needs clarification. Example: Unclear bug report."
+      "name": "work: disorder",
+      "color": "#cccccc",
+      "description": "Unknown context. Needs clarification. Example: Unclear bug report."
   },
   {
-    "name": "priority: must-have",
-    "color": "#cccccc",
-    "description": "Critical to project success. Example: Core login system."
+      "name": "priority: must-have",
+      "color": "#cccccc",
+      "description": "Critical to project success. Example: Core login system."
   },
   {
-    "name": "priority: should-have",
-    "color": "#cccccc",
-    "description": "Important but not vital. Example: Admin panel filters."
+      "name": "priority: should-have",
+      "color": "#cccccc",
+      "description": "Important but not vital. Example: Admin panel filters."
   },
   {
-    "name": "priority: could-have",
-    "color": "#cccccc",
-    "description": "Nice to have, low effort. Example: Dark mode toggle."
+      "name": "priority: could-have",
+      "color": "#cccccc",
+      "description": "Nice to have, low effort. Example: Dark mode toggle."
   },
   {
-    "name": "priority: won't-have (this time)",
-    "color": "#cccccc",
-    "description": "Not planned for this cycle. Example: Mobile app version."
+      "name": "priority: won't-have (this time)",
+      "color": "#cccccc",
+      "description": "Not planned for this cycle. Example: Mobile app version."
   }
 ]
